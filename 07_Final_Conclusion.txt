@@ -1,0 +1,15 @@
+FINAL CONCLUSION
+
+Both Merge Sort and Quick Sort correctly sort the given fixed-length keys:
+
+102, 125, 147, 218, 275, 324, 389, 456
+
+Merge Sort provides O(n log n) time in the best, average and worst cases,
+but requires O(n) additional space.
+
+Quick Sort has O(n log n) average-case time and can be efficient in practice,
+but its worst-case time is O(n^2) when poor pivots are repeatedly selected.
+
+For large fixed-length keys where predictable performance is important,
+Merge Sort is an appropriate choice because its worst-case time remains
+O(n log n).

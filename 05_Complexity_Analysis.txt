@@ -1,0 +1,22 @@
+COMPLEXITY ANALYSIS
+
+1. MERGE SORT
+Best case:    O(n log n)
+Average case: O(n log n)
+Worst case:   O(n log n)
+Additional space: O(n)
+
+For n = 8:
+Number of merge levels = log2(8) = 3.
+
+2. QUICK SORT
+Best case:    O(n log n)
+Average case: O(n log n)
+Worst case:   O(n^2)
+Additional space: O(log n) average due to recursion; O(n) in the worst case.
+
+For the given input, using the last element as pivot, the major partition
+steps are recorded in the trace table.
+
+Note: The exact number of comparisons in Quick Sort depends on the pivot
+selection and implementation. Merge Sort has predictable O(n log n) time.

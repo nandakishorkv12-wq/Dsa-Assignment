@@ -1,0 +1,4 @@
+Input data:
+324, 125, 456, 218, 102, 389, 275, 147
+
+Number of elements = 8

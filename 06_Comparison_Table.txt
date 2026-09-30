@@ -1,0 +1,15 @@
+COMPARISON TABLE
+
+Criteria                    Merge Sort                 Quick Sort
+--------------------------------------------------------------------------
+Main operation              Merging                    Partitioning
+Passes / partitions         3 merge passes             Depends on pivot
+Best-case time              O(n log n)                 O(n log n)
+Average-case time           O(n log n)                 O(n log n)
+Worst-case time             O(n log n)                 O(n^2)
+Additional space            O(n)                       O(log n) average
+Stability                   Stable                     Usually not stable
+Performance predictability  High                       Depends on pivot
+
+For n = 8, Merge Sort has log2(8) = 3 merge levels.
+Quick Sort partition count depends on the chosen pivot strategy.
